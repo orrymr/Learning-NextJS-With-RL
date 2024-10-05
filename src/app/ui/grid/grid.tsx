@@ -5,6 +5,10 @@ interface GridProps {
 
 export default function Grid({ rows, cols }: GridProps) {
   const ballPosition = { row: 0, col: 0 };
+  let valFunction = new ValFunction(rows, cols);
+
+
+
   return (
     <div
       className="grid"
