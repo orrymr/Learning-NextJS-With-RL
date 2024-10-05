@@ -9,7 +9,7 @@ export default function Home() {
       <p className="text-lg mb-8 text-red-400">
         The ultimate platform for all your needs.
       </p>
-      <Link href="/profile">
+      <Link href="/grid">
         <button className="bg-red-300 text-black font-semibold py-2 px-4 rounded transition duration-300 hover:bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 hover:text-white">
           Get Started
         </button>

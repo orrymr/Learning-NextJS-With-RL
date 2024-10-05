@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Grid from "@/app/ui/grid/grid";
 import GridDimensionControls from "@/app/ui/grid/grid-dimension-conrols";
+import OgGrid from "../ui/grid/og-grid";
 
 export default function Page() {
   const [rows, setRows] = useState(4);
@@ -21,6 +22,9 @@ export default function Page() {
         </div>
         <div className="pt-28 p-4">
           <Grid rows={rows} cols={cols} />
+        </div>
+        <div>
+          <OgGrid rows={rows} cols={cols}/>
         </div>
       </div>
     </>
